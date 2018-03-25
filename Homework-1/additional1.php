@@ -1,4 +1,4 @@
-<?php
+S<?php
 // Обязательное заклинание
 header('Content-Type: text/html; charset=utf-8');
 

@@ -11,11 +11,14 @@
         
         <h3>Задание 1</h3>
         <?php
-            echo "<div class=\"task1\" style=\"width: 300px; height: 150px; overflow-y: scroll;\">";
+            echo "<div class=\"task1\" style=\"width: 300px; height: 100px;\">";
             $num = 0;
             while($num <= 100){
-                echo $num , " ";
+                if($num % 3 == 0){
+                    echo $num , " ";
+                }
                 $num++;
+                
             }
             echo "</div>";
         ?>

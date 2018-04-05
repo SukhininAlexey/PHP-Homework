@@ -27,8 +27,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     $connection = mysqli_connect("localhost", "root", "", "PHP_hw5");
     $res = mysqli_query($connection, "SELECT max(id) FROM pics_table");
     $id = mysqli_fetch_assoc($res)["max(id)"] + 1;
-    $origin_path_full = UPLOADS_ORIG_DIR_FULL . "/imgBig-" . $id . ".jpg";
-    $preview_path_full = UPLOADS_PREV_DIR_FULL . "/imgSmall-" . $id . ".jpg";
+    //$origin_path_full = UPLOADS_ORIG_DIR_FULL . "/imgBig-" . $id . ".jpg";
+    //$preview_path_full = UPLOADS_PREV_DIR_FULL . "/imgSmall-" . $id . ".jpg";
     
     $origin_path_short = UPLOADS_ORIG_DIR_SHORT . "/imgBig-" . $id . ".jpg";
     $preview_path_short = UPLOADS_PREV_DIR_SHORT . "/imgSmall-" . $id . ".jpg";
@@ -38,8 +38,8 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     mysqli_close($connection);
     
     // Сохранение файлов
-    img_resize($tmp, $preview_path_full, 400, 240);
-    move_uploaded_file($tmp, $origin_path_full);
+    img_resize($tmp, $preview_path_short, 400, 240);
+    move_uploaded_file($tmp, $origin_path_short);
     
     
 }

@@ -7,5 +7,5 @@ define('UPLOADS_DIR', PUBLIC_DIR . "/uploads");
 define('UPLOADS_PREV_DIR_FULL', UPLOADS_DIR . "/preview");
 define('UPLOADS_ORIG_DIR_FULL', UPLOADS_DIR . "/origin");
 
-define('UPLOADS_PREV_DIR_SHORT', "/PHP-Homework/Homework-5/public/uploads/preview");
-define('UPLOADS_ORIG_DIR_SHORT', "/PHP-Homework/Homework-5/public/uploads/origin");
+define('UPLOADS_PREV_DIR_SHORT', "./uploads/preview");
+define('UPLOADS_ORIG_DIR_SHORT', "./uploads/origin");

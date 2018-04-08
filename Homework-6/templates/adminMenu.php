@@ -1,3 +1,5 @@
+<h4><?=$message?></h4>
+
 <form action="" enctype="multipart/form-data" method="post">
     <p>Название товара: <input type="text" name="name"></p>
     <p>Цена товара: <input type="number" name="price"></p>

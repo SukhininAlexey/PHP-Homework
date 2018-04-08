@@ -22,7 +22,9 @@ function execute($query){
 }
 
 function query($query){
-    return mysqli_fetch_all(execute($query), MYSQLI_ASSOC);
+    try{
+        return mysqli_fetch_all(execute($query), MYSQLI_ASSOC);
+    } catch (Exception $e){};
 }
 
 

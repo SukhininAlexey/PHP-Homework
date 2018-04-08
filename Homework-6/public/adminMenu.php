@@ -3,11 +3,19 @@ require_once $_SERVER['DOCUMENT_ROOT'] . "/PHP-Homework/Homework-6/config/main.p
 require_once ENGINE_DIR . "/functions.php";
 require_once ENGINE_DIR . "/funcImgResize.php";
 
-// Получаем список категорий товаров в виде массива, чтобы потом в select засунуть
-$contentArr = query("SELECT * FROM categories");
-getConnection(FALSE);
+$adminHere = false;
+$contentArr = [];
+session_start();
 
-if($_SERVER['REQUEST_METHOD'] == "POST"){
+if(isset($_SESSION['user']) && ($_SESSION['type'] == "Admin")){
+    // Получаем список категорий товаров в виде массива, чтобы потом в select засунуть
+    $adminHere = true;
+    $adminMessage = "Здесь вы можете добавлять новые товары в базу данных";
+    $contentArr = query("SELECT * FROM categories");
+    getConnection(FALSE);
+}
+
+if($_SERVER['REQUEST_METHOD'] == "POST" && $adminHere){
     
     // Получение информации о товаре
     $tmp = $_FILES["file"]["tmp_name"]; // расположение картинки
@@ -36,6 +44,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     move_uploaded_file($tmp, $origin_path_short);    
 }
 
-echo render("adminMenu",["options" => $contentArr],"main"); // передаем массив с опциями для select в шаблоне
+if($adminHere){
+    echo render("adminMenu",["options" => $contentArr, "message" => $adminMessage],"main"); // передаем массив с опциями для select в шаблоне
+}else{
+    echo "<h4>У вас недостаточно прав для работы на данной странице<h4>";
+}
+
+
 ?>
 

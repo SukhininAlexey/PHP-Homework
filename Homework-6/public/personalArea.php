@@ -7,7 +7,6 @@ session_start();
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     if($_POST["session"] == "logout"){
         session_destroy();
-        session_abort();
     }
 }
 

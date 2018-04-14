@@ -4,17 +4,23 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/engine/funcImgResize.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/calc1.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/product.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/adminMenu.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/index.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/adminMenu.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/cart.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/personalArea.php</file>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/config/main.php</file>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/product.php</file>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/index.php</file>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/engine/functions.php</file>
-            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/calc1.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/personalArea.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/cart.php</file>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/layouts/main.php</file>
-            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/product.php</file>
             <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/calc2.php</file>
-            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/adminMenu.php</file>
-            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/index.php</file>
-            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/adminMenu.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/public/login-reg.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Homework-6/templates/login-reg.php</file>
         </group>
     </open-files>
 </project-private>

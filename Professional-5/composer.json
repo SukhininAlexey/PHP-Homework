@@ -1,0 +1,12 @@
+{
+    "name": "lex/professional-2",
+    "authors": [
+        {
+            "name": "SukhininAlexey",
+            "email": "sukhininalexey@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^2.4"
+    }
+}

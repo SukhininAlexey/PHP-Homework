@@ -46,7 +46,10 @@ class CartController extends Controller {
         echo "<br>";
         var_dump($params);
          */
-        \sukhinin\app\services\Db::getInstance()->execute($sql, $params = []);
+        
+        \sukhinin\app\services\Db::getInstance()->execute($sql, $params);
+        
+        $this->actionIndex();
     }
     
     public function actionRemove(){

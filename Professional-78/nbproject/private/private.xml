@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/models/Product.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/models/repositories/ProductRepository.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/vendor/autoload.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/models/DataEntity.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/twig_views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/services/Session.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/services/TwigRenderer.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/controllers/ProductController.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/twig_views/catalog.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/views/layouts/main.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/traits/TSingleton.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/services/TemplateRenderer.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/interfaces/IRenderer.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/services/Autoloader.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/services/Db.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/models/Model.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/models/Repository.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/controllers/CartController.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/config/main.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/twig_views/card.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/views/card.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/public/index.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/views/catalog.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/services/Request.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/views/cart.php</file>
+            <file>file:/C:/xampp/htdocs/PHP-Homework/Professional-2/controllers/Controller.php</file>
+        </group>
+    </open-files>
+</project-private>
